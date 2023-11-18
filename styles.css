@@ -1,10 +1,9 @@
 body 
-{font-family:Roboto;sans-serif}
+{font-family:Roboto;sans-serif
+  background-color: #FFFFFF;
+    color: #434455;}
 
 :root {
     --style:}
 
-.text
-{background-color:#FFFFFF;
-    color:#434455;}
 
