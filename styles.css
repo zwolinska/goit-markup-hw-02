@@ -34,9 +34,8 @@ body
     .adress 
     {font-style: normal;}
 
-    .link-first
-    {
-    font-weight: 500;
+    .link-index
+    {font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
