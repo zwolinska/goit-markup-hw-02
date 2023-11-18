@@ -6,4 +6,49 @@ body
 :root {
     --style:}
 
+    .logo-web {font-family:Raleway;sans-serif
+   font-weight: 800px;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+    }
+    .logo-web-plus
+    {text-decoration: none}
+
+    .logo-studio {
+        color:#2e2f42;
+    }
+
+    .link-first
+    {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
+    }
+    .link-first-plus
+    {text-decoration: none}
+
+    .link-portfolio
+    {font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+    .link-portfolio-plus
+    {text-decoration: none}
+
+    .link-contacts
+    {font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+    .link-contacts-plus
+    {text-decoration: none}
 
