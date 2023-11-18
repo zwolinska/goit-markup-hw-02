@@ -107,7 +107,7 @@ body
     {background-color: #FFFFFF;}
 
     .footer
-    {background-color: #2e2f42;}
+    {background-color:var(--color2)}
 
     .footer-color
     {color:var(--color4);}
