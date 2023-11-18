@@ -1,7 +1,8 @@
 body 
 {font-family:Roboto;sans-serif
   background-color: #FFFFFF;
-    color: #434455;}
+    color:#434455;
+}
 
 :root {
     --style:}
@@ -51,4 +52,31 @@ body
     }
     .link-contacts-plus
     {text-decoration: none}
+
+    .adres
+    {font-style: normal;}
+    .adres-two
+    {list-style: none;}
+
+    .mail 
+    {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color:#434455;}
+    .mail-plus
+    {text-decoration: none;}
+
+    .tel
+    {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+    .tel-plus
+    {text-decoration: none;}
+
+
+
 
