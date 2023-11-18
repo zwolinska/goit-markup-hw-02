@@ -1,5 +1,5 @@
 body 
-{font-family:Roboto;sans-serif
+{font-family:"Roboto",sans-serif;
   background-color: #FFFFFF;
     color:#434455;
 }
@@ -7,7 +7,8 @@ body
 :root {
     --style:}
 
-    .logo-web {font-family:Raleway;sans-serif
+    .logo-web 
+    {font-family:"Raleway",sans-serif;
    font-weight: 800px;
     font-size: 18px;
     line-height: 1.17;
@@ -55,27 +56,47 @@ body
 
     .adres
     {font-style: normal;}
-    .adres-two
+    .adres-plus
     {list-style: none;}
 
-    .mail 
+    .contacts 
     {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color:#434455;}
-    .mail-plus
+    .contacts-plus
     {text-decoration: none;}
 
-    .tel
+    .sekcja-jeden
+    {background-color:#2e2f42;}
+
+    .naglowek
     {
-    font-size: 16px;
-        line-height: 1.5;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
         letter-spacing: 0.02em;
-        color: #434455;
+        color: #ffffff;}
+
+    .button {
+        background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
     }
-    .tel-plus
-    {text-decoration: none;}
+
+    .lista-cech
+    {
+
+    }
+
+
+
+    
 
 
 
