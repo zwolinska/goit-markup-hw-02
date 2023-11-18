@@ -5,7 +5,10 @@ body
 }
 
 :root {
-    --style:}
+    --color:#4d5ae5;
+    --color2:#2e2f42;
+
+}
 
     .logo-web 
     {font-family:"Raleway",sans-serif;
@@ -14,14 +17,17 @@ body
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:#4d5ae5;
+    color:var(--color);
     }
-    .logo-web-plus
+    .link
     {text-decoration: none}
 
     .logo-studio {
-        color:#2e2f42;
+        color:var(--color2);
     }
+
+    .lista-header 
+    {list-style: none}
 
     .link-first
     {
@@ -29,7 +35,7 @@ body
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:#2e2f42;
+    color:var(--color2);
     }
     .link-first-plus
     {text-decoration: none}
