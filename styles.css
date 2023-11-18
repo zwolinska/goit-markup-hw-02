@@ -8,7 +8,7 @@ body
     --color1:#4d5ae5;
     --color2:#2e2f42;
     --color3:#434455;
-
+    --color4:#F4F4FD;
 }
 
     .logo-web 
@@ -72,13 +72,13 @@ body
     color: #ffffff;
     }
 
-    .naglowek-two
+    .list
     {list-style: none;}
 
     .naglowek-two
     {font-weight:500;
     font-size:20px;
-    line-height:1.2;
+    line-height:1,2;
     letter-spacing:0.02em;
     color: var(--color2);
     }
@@ -96,10 +96,28 @@ body
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
-        color:var(--color2);}
+        color:var(--color2);
+    }
 
-    .lista-tree
-    {list-style: none;}
+    .section-four
+    {background-color: #F4F4FD;
+    }
+
+    .fotos
+    {background-color: #FFFFFF;}
+
+    .footer
+    {background-color: #2e2f42;}
+
+    .footer-color
+    {color:var(--color4);}
+
+    .acapit-footer
+    {line-height: 1.5px;
+        letter-spacing: 0.02em;
+        color: var(--color4); }
+
+
 
 
 
