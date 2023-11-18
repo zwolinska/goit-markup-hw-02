@@ -72,6 +72,15 @@ body
     color: #ffffff;
     }
 
+    .button-two
+    {font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color:var(--color1);
+    cursor: pointer;
+    }
+
     .list
     {list-style: none;}
 
@@ -87,7 +96,7 @@ body
     {font-size:16px;
         line-height:1.5;
         letter-spacing:0.02em;
-        color: var(--color3);
+        color:var(--color3);
     }
 
     .naglowek-tree
