@@ -13,12 +13,12 @@ body
 
     .logo-web 
     {font-family:"Raleway",sans-serif;
-   font-weight: 800px;
+   font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--color1);
+    color:var(--color1)
     }
     .link
     {text-decoration: none}
