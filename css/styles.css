@@ -8,7 +8,6 @@ body
     --color1:#4d5ae5;
     --color2:#2e2f42;
     --color3:#434455;
-
 }
 
     .logo-web 
@@ -62,8 +61,8 @@ body
         letter-spacing: 0.02em;
         color: #ffffff;}
 
-    .button 
-    {background-color: #4D5AE5;
+    .button {
+        background-color: #4D5AE5;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -72,19 +71,9 @@ body
     color: #ffffff;
     }
 
-    .naglowek-two
-    {font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--color2);
-    }
+    .lista-cech
+    {
 
-    .acapit
-    {font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: var(--color3);
     }
 
 
