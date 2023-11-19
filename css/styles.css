@@ -88,7 +88,7 @@ body
     color:var(--color1);
     }
 
-    .button:hover
+    .button-two:hover
     {color:var(--color1);
     cursor: pointer;
     background-color:#F4F4FD;
