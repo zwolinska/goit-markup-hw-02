@@ -115,8 +115,8 @@ body
     .footer
     {background-color:var(--color2)}
 
-    .footer-color
-    {color:var(--color4);}
+    .styl-color
+    {color: #f4f4fd;}
 
     .acapit-footer
     {line-height: 1.5px;
