@@ -63,6 +63,21 @@ body
         letter-spacing:0.02em;
         color: #ffffff;}
 
+    .naglowek-two {
+              font-weight: 500;
+              font-size: 20px;
+              line-height: 1.2;
+              letter-spacing: 0.02em;
+              color: var(--color2);}
+
+    .naglowek-tree {
+            font-size: 36px;
+            line-height: 1.11;
+            letter-spacing: 0.02em;
+            text-align: center;
+            text-transform: capitalize;
+            color: var(--color2);}
+
     .button 
     {background-color: #4D5AE5;
     font-family:"Roboto", sans-serif;
@@ -82,28 +97,11 @@ body
     .list
     {list-style: none;}
 
-    .naglowek-two
-    {font-weight:500;
-    font-size:20px;
-    line-height:1.2;
-    letter-spacing:0.02em;
-    color: var(--color2);
-    }
-
     .acapit
     {font-size:16px;
         line-height:1.5;
         letter-spacing:0.02em;
         color:var(--color3);
-    }
-
-    .naglowek-tree
-    {font-size: 36px;
-        line-height: 1.11;
-        letter-spacing: 0.02em;
-        text-align: center;
-        text-transform: capitalize;
-        color:var(--color2);
     }
 
     .section-four
@@ -120,7 +118,7 @@ body
     {color: #f4f4fd;}
 
     .acapit-footer
-    {line-height: 1.5px;
+    {line-height: 1.5;
         letter-spacing: 0.02em;
         color: var(--color4); }
 
