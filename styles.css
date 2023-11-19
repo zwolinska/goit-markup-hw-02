@@ -20,9 +20,7 @@ body
     text-transform: uppercase;
     color:var(--color1)
     }
-    .link
-    {text-decoration: none}
-
+   
     .list 
     {list-style: none;}
 
@@ -33,6 +31,8 @@ body
 
     .adress 
     {font-style: normal;}
+
+    .link {text-decoration: none}
 
     .link-index
     {font-weight: 500;
