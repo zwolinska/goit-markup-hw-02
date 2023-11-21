@@ -90,6 +90,7 @@ body
             text-align: center;
             text-transform: capitalize;
             color: var(--becgroung-color-section);}
+            
 
     .button 
     {background-color:var(--footer-color);
@@ -98,8 +99,11 @@ body
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.04em;
-    color:var(--logo-main-color);
-    }
+    color:var(--becgroung-color);}
+
+
+    .button-index:hover:focus
+    {color: var(--link-hover-focus);}
 
     .button-two:hover
     {color:var(--logo-main-color);
