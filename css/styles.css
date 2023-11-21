@@ -52,9 +52,7 @@ body
     color:var(--becgroung-color-section);
     }
 
-    .link:hover, :focus{
-        color:var(--link-hover-focus);
-    }
+    .link:hover, .link:focus {color:var(--link-hover-focus);}
    
     .contacts{list-style: none}
 
@@ -101,9 +99,7 @@ body
     line-height:1.5;
     letter-spacing:0.04em;}
 
-    .button:hover:focus
-    {background-color:#404BBF;}
-
+    .button:hover, .button:focus {background-color:#404BBF;}
 
 
     .button-two:hover
