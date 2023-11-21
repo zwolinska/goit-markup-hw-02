@@ -93,7 +93,7 @@ body
 
 
     .button 
-    {background-color:var(#4D5AE5);
+    {background-color:#4D5AE5;
     color:#ffffff;
     font-family:"Roboto", sans-serif;
     font-weight:500;
@@ -101,9 +101,10 @@ body
     line-height:1.5;
     letter-spacing:0.04em;}
 
-
     .button:hover:focus
-    {color:#404BBF;}
+    {background-color:#404BBF;}
+
+
 
     .button-two:hover
     {color:var(--logo-main-color);
