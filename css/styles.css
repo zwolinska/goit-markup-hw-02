@@ -43,7 +43,10 @@ body
     color:var(--color2);
     }
 
-    .link-color:hover{
+    .link:hover{
+        color:#404bbf;
+    }
+    .link:focus{
         color:#404bbf;
     }
 
@@ -98,8 +101,6 @@ body
     background-color:#F4F4FD;
     }
 
-    .list
-    {list-style: none;}
 
     .acapit
     {font-size:16px;
