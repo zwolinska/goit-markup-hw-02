@@ -111,6 +111,11 @@ body
     letter-spacing: 0.04em;
     }
 
+    .button-portfolio:hover, .button-portfolio:focus 
+    {background-color: #404BBF;
+    color: #FFFFFF;}
+
+    
     .acapit
     {font-size:16px;
         line-height:1.5;
