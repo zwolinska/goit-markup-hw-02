@@ -5,10 +5,12 @@ body
 }
 
 :root {
-    --color1:#4d5ae5;
-    --color2:#2e2f42;
-    --color3:#434455;
-    --color4:#F4F4FD;
+    --bacground-color:#FFFFFF;
+    --logo-main-color:#4d5ae5;
+    --becgroung-color-section:#2e2f42;
+    --section-heading-color:#434455;
+    --footer-color:#F4F4FD;
+    --link-hover-focus:#404bbf;
 }
 
     .logo-web 
@@ -18,14 +20,14 @@ body
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--color1)
+    color:var(--logo-main-color)
     }
    
     .list 
     {list-style: none;}
 
 
-    .logo-studio {color:var(--color2);}
+    .logo-studio {color:var(--becgroung-color-section);}
 
     .lista-header 
     {list-style: none}
@@ -33,23 +35,27 @@ body
     .adress 
     {font-style: normal;}
 
+    .link-adress
+    {font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--section-heading-color)
+    }
+
     .link {text-decoration: none}
 
-    a
+    .link-header
     {font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color:var(--color2);
+    color:var(--becgroung-color-section);
     }
 
-    .link:hover{
-        color:#404bbf;
+    .link:hover, :focus{
+        color:var(--link-hover-focus);
     }
-    .link:focus{
-        color:#404bbf;
-    }
-
+   
     .contacts{list-style: none}
 
     address
@@ -57,7 +63,7 @@ body
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color:var(--color3)}
+        color:var(--section-heading-color)}
 
     .sekcja-jeden
     {background-color:#2e2f42;}
@@ -75,7 +81,7 @@ body
               font-size: 20px;
               line-height: 1.2;
               letter-spacing: 0.02em;
-              color: var(--color2);}
+              color: var(--becgroung-color-section);}
 
     .naglowek-tree {
             font-size: 36px;
@@ -83,21 +89,20 @@ body
             letter-spacing: 0.02em;
             text-align: center;
             text-transform: capitalize;
-            color: var(--color2);}
+            color: var(--becgroung-color-section);}
 
     .button 
-    {background-color:var(--color4);
+    {background-color:var(--footer-color);
     font-family:"Roboto", sans-serif;
     font-weight:500;
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.04em;
-    color:var(--color1);
+    color:var(--logo-main-color);
     }
 
     .button-two:hover
-    {color:var(--color1);
-    cursor: pointer;
+    {color:var(--logo-main-color);
     background-color:#F4F4FD;
     }
 
@@ -106,7 +111,7 @@ body
     {font-size:16px;
         line-height:1.5;
         letter-spacing:0.02em;
-        color:var(--color3);
+        color:var(--section-heading-color);
     }
 
     .section-four
@@ -117,15 +122,15 @@ body
     {background-color: #FFFFFF;}
 
     .footer
-    {background-color:var(--color2)}
+    {background-color:var(--becgroung-color-section)}
 
     .styl-color
-    {color: #f4f4fd;}
+    {color: var(--footer-color);}
 
     .acapit-footer
     {line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--color4); }
+        color: var(--footer-color); }
 
 
 
