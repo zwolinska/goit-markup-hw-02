@@ -104,7 +104,7 @@ body
     letter-spacing: 0.04em;
     }
 
-    .button-hover:hover, .button-hover:focus
+    .button-portfolio:hover, .button-portfolio:focus
     {background-color: #404BBF;
     color: #FFFFFF;}
 
