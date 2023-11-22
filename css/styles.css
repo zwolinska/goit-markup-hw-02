@@ -1,8 +1,20 @@
 body 
 {font-family:"Roboto",sans-serif;
   background-color: #FFFFFF;
-    color:#434455;
+    color:#434455;}
+
+.header-{border-bottom: 1px solid #e7e9fc}
+
+.div-logo{display: flex;
 }
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;}
+
+.nav-logo{
+    display: flex;
+    align-items: center;}
 
 :root {
     --bacground-color:#FFFFFF;
@@ -10,8 +22,7 @@ body
     --becgroung-color-section:#2e2f42;
     --section-heading-color:#434455;
     --footer-color:#F4F4FD;
-    --link-hover-focus:#404bbf;
-}
+    --link-hover-focus:#404bbf;}
 
     .logo-web 
     {font-family:"Raleway",sans-serif;
@@ -20,25 +31,31 @@ body
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color:var(--logo-main-color)
+    color:var(--logo-main-color);
+    margin-right: 76px;
     }
    
-    .list 
-    {list-style: none;}
+    .list {list-style: none;
+    display: flex;
+    gap: 40px}
+
+    .menu-header
+    {display: flex;
+    gap: 40px;}
 
     .logo-studio {color:var(--becgroung-color-section);}
 
-    .lista-header 
-    {list-style: none}
+    .lista-header {list-style: none}
 
-    .adr
-    {font-style: normal;}
+    .adr {font-style: normal;}
 
     .address-logo
     {font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--section-heading-color)}
+    color: var(--section-heading-color);
+    display: flex;
+    gap: 40px;}
 
 
     .link {text-decoration: none}
@@ -49,22 +66,20 @@ body
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--becgroung-color-section);
-    }
+    padding: 24px 0}
 
     .link:hover, .link:focus {color:var(--link-hover-focus);}
    
     .contacts{list-style: none}
 
-    .sekcja-jeden
-    {background-color:#2e2f42;}
+    .sekcja-jeden {background-color:#2e2f42;}
 
     .naglowek
-    {
-        font-size:56px;
-        line-height:1.07;
-        text-align:center;
-        letter-spacing:0.02em;
-        color: #ffffff;}
+    {font-size:56px;
+    line-height:1.07;
+    text-align:center;
+    letter-spacing:0.02em;
+    color: #ffffff;}
 
     .naglowek-two {
               font-weight: 500;
@@ -114,18 +129,13 @@ body
         letter-spacing:0.02em;
         color:var(--section-heading-color);}
 
-    .section-four
-    {background-color: #F4F4FD;
-    }
+    .section-four {background-color: #F4F4FD;}
 
-    .fotos
-    {background-color: #FFFFFF;}
+    .fotos {background-color: #FFFFFF;}
 
-    .footer
-    {background-color:var(--becgroung-color-section)}
+    .footer {background-color:var(--becgroung-color-section)}
 
-    .styl-color
-    {color: var(--footer-color);}
+    .styl-color {color: var(--footer-color);}
 
     .acapit-footer
     {line-height: 1.5;
