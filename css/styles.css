@@ -72,14 +72,17 @@ body
    
     .contacts{list-style: none}
 
-    .sekcja-jeden {background-color:#2e2f42;}
+    .sekcja-jeden {background-color:#2e2f42;
+    padding: 188px 0;}
+
 
     .naglowek
     {font-size:56px;
     line-height:1.07;
     text-align:center;
     letter-spacing:0.02em;
-    color: #ffffff;}
+    color: #ffffff;
+    max-width: 496px;}
 
     .naglowek-two {
               font-weight: 500;
@@ -105,6 +108,15 @@ body
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.04em;}
+
+    .button-index
+    {display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color:var(--logo-main-color);
+    border-radius: 4px;}
+
 
     .button:hover, .button:focus {background-color:#404BBF;}
 
