@@ -4,54 +4,82 @@
     --becgroung-color-section: #2e2f42;
     --section-heading-color: #434455;
     --footer-color: #F4F4FD;
-    --link-hover-focus: #404bbf;}
+    --link-hover-focus: #404bbf;
+}
 
 body 
-{font-family:"Roboto",sans-serif;
+{
+font-family:"Roboto",sans-serif;
 background-color: #FFFFFF;
-color:#434455;}
+color:#434455;
+}
 
-.header-{border-bottom: 1px solid #e7e9fc}
+.header
+{
+    border-bottom: 1px solid #e7e9fc
+}
 
 .logo-web 
-{font-family:"Raleway",sans-serif;
+{
+font-family:"Raleway",sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--logo-main-color);
-margin-right: 76px;
 }
 
-    .logo-studio {color:var(--becgroung-color-section);}
+    .logo-studio 
+    {
+        color:var(--becgroung-color-section);
+    }
 
-    .list {list-style: none}
+    .list 
+    {
+        list-style: none
+    }
 
-    .adr {font-style: normal;}
+    .adr
+     {
+        font-style: normal;
+    }
 
     .address-logo
-    {font-size: 16px;
+    {
+        font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--section-heading-color);
     display: flex;
-    gap: 40px;}
+    gap: 40px;
+}
 
 
-    .link {text-decoration: none}
+    .link 
+    {
+        text-decoration: none
+    }
 
     .link-header
-    {font-weight: 500;
+    {
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--becgroung-color-section);
-    padding: 24px 0}
+    padding: 24px 0
+}
 
-    .link:hover, .link:focus {color:var(--link-hover-focus);}
+    .link:hover, .link:focus 
+    {
+        color:var(--link-hover-focus);
+    }
    
-    .contacts{list-style: none}
+    .contacts
+    {
+        list-style: none
+    }
 
     .section-index 
     {background-color:#2e2f42;}
@@ -94,28 +122,37 @@ margin-right: 76px;
     cursor: pointer;}
 
 
-    .button:hover, .button:focus {background-color:#404BBF;}
+    .button:hover, .button:focus 
+    {
+        background-color:#404BBF;
+    }
 
     .button-portfolio
-    {background-color:var(--footer-color);
+    {
+        background-color:var(--footer-color);
     color: var(--logo-main-color);
     font-family:"Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;}
+    cursor: pointer;
+}
 
     .button-portfolio:hover, .button-portfolio:focus
-    {background-color: #404BBF;
-    color: #FFFFFF;}
+    {
+        background-color: #404BBF;
+    color: #FFFFFF;
+}
 
 
     .acapit
-    {font-size:16px;
+    {
+        font-size:16px;
     line-height:1.5;
     letter-spacing:0.02em;
-    color:var(--section-heading-color);}
+    color:var(--section-heading-color);
+}
 
     .section-four {background-color: #F4F4FD;}
 
