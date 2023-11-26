@@ -10,8 +10,8 @@
 body 
 {
 font-family:"Roboto",sans-serif;
-background-color: #FFFFFF;
-color:#434455;
+background-color:var(--bacground-color);
+color:var(--section-heading-color);
 }
 
 .logo-web 
@@ -26,7 +26,7 @@ color:var(--logo-main-color);
 }
 
 .logo-web:hover{
-color: #404bbf;
+color:var(--link-hover-focus);
 }
 
     .logo-studio 
@@ -44,14 +44,11 @@ color: #404bbf;
         font-style: normal;
     }
 
-    .address-logo
-    {
+    .address-logo{
         font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--section-heading-color);
-    display: flex;
-    gap: 40px;
 }
 
 
@@ -67,7 +64,6 @@ color: #404bbf;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:var(--becgroung-color-section);
-    padding: 24px 0
 }
 
     .link:hover, .link:focus 
@@ -81,7 +77,7 @@ color: #404bbf;
     }
 
     .section-index 
-    {background-color:#2e2f42;}
+    {background-color:var(--becgroung-color-section);}
 
     .section-one{padding: 188px 0;}
 
@@ -90,7 +86,7 @@ color: #404bbf;
     line-height:1.07;
     text-align:center;
     letter-spacing:0.02em;
-    color: #ffffff;}
+    color:var(--bacground-color);}
 
     .heading-one{max-width: 496px;}
 
@@ -111,8 +107,8 @@ color: #404bbf;
 
 
     .button 
-    {background-color:#4D5AE5;
-    color:#ffffff;
+    {background-color:var(--logo-main-color);
+    color:var(--bacground-color);
     font-family:"Roboto", sans-serif;
     font-weight:500;
     font-size:16px;
@@ -123,7 +119,7 @@ color: #404bbf;
 
     .button:hover, .button:focus 
     {
-        background-color:#404BBF;
+        background-color:var(--link-hover-focus);
     }
 
     .button-portfolio
@@ -140,8 +136,8 @@ color: #404bbf;
 
     .button-portfolio:hover, .button-portfolio:focus
     {
-        background-color: #404BBF;
-    color: #FFFFFF;
+        background-color:var(--link-hover-focus);
+    color:var(--bacground-color);
 }
 
 
@@ -153,9 +149,9 @@ color: #404bbf;
     color:var(--section-heading-color);
 }
 
-    .section-four {background-color: #F4F4FD;}
+    .section-four {background-color:var(--footer-color);}
 
-    .fotos {background-color: #FFFFFF;}
+    .fotos {background-color:var(--bacground-color);}
 
     .footer {background-color:var(--becgroung-color-section)}
 
