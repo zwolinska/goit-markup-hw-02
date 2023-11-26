@@ -1,28 +1,17 @@
+:root {
+    --bacground-color: #FFFFFF;
+    --logo-main-color: #4d5ae5;
+    --becgroung-color-section: #2e2f42;
+    --section-heading-color: #434455;
+    --footer-color: #F4F4FD;
+    --link-hover-focus: #404bbf;}
+
 body 
 {font-family:"Roboto",sans-serif;
 background-color: #FFFFFF;
 color:#434455;}
 
 .header-{border-bottom: 1px solid #e7e9fc}
-
-.div-logo{display: flex;
-}
-.container{
-width: 1158px;
-margin: 0 auto;
-padding: 0 15px;}
-
-.nav-logo{
-display: flex;
-align-items: center;}
-
-:root {
---bacground-color:#FFFFFF;
---logo-main-color:#4d5ae5;
---becgroung-color-section:#2e2f42;
---section-heading-color:#434455;
---footer-color:#F4F4FD;
---link-hover-focus:#404bbf;}
 
 .logo-web 
 {font-family:"Raleway",sans-serif;
@@ -34,18 +23,10 @@ text-transform: uppercase;
 color:var(--logo-main-color);
 margin-right: 76px;
 }
-   
-    .list {list-style: none;
-    display: flex;
-    gap: 40px}
-
-    .menu-header
-    {display: flex;
-    gap: 40px;}
 
     .logo-studio {color:var(--becgroung-color-section);}
 
-    .lista-header {list-style: none}
+    .list {list-style: none}
 
     .adr {font-style: normal;}
 
@@ -72,10 +53,10 @@ margin-right: 76px;
    
     .contacts{list-style: none}
 
-    .sekcja-index 
+    .section-index 
     {background-color:#2e2f42;}
 
-    .sekcja-one{padding: 188px 0;}
+    .section-one{padding: 188px 0;}
 
     .naglowek
     {font-size:56px;
@@ -84,16 +65,16 @@ margin-right: 76px;
     letter-spacing:0.02em;
     color: #ffffff;}
 
-    .naglowek-one{max-width: 496px;}
+    .heading-one{max-width: 496px;}
 
-    .naglowek-two 
+    .heading-two 
     {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--becgroung-color-section);}
 
-    .naglowek-tree {
+    .heading-tree {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -109,15 +90,8 @@ margin-right: 76px;
     font-weight:500;
     font-size:16px;
     line-height:1.5;
-    letter-spacing:0.04em;}
-
-    .button-index
-    {display: block;
-    min-width: 169px;
-    height: 56px;
-    border: none;
-    background-color:var(--logo-main-color);
-    border-radius: 4px;}
+    letter-spacing:0.04em;
+    cursor: pointer;}
 
 
     .button:hover, .button:focus {background-color:#404BBF;}
@@ -130,7 +104,7 @@ margin-right: 76px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    }
+    cursor: pointer;}
 
     .button-portfolio:hover, .button-portfolio:focus
     {background-color: #404BBF;
