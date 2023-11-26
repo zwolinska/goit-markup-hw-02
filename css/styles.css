@@ -25,6 +25,10 @@ text-transform: uppercase;
 color:var(--logo-main-color);
 }
 
+.logo-web:hover{
+color: #404bbf;
+}
+
     .logo-studio 
     {
         color:var(--becgroung-color-section);
@@ -81,7 +85,7 @@ color:var(--logo-main-color);
 
     .section-one{padding: 188px 0;}
 
-    .naglowek
+    .heading
     {font-size:56px;
     line-height:1.07;
     text-align:center;
