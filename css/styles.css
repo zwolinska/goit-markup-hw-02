@@ -88,7 +88,6 @@ color:var(--link-hover-focus);
     letter-spacing:0.02em;
     color:var(--bacground-color);}
 
-    .heading-one{max-width: 496px;}
 
     .heading-two 
     {font-weight: 500;
@@ -114,7 +113,7 @@ color:var(--link-hover-focus);
     font-size:16px;
     line-height:1.5;
     letter-spacing:0.04em;
-    cursor: pointer;}
+    }
 
 
     .button:hover, .button:focus 
