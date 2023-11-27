@@ -1,1 +1,1 @@
-# goit-home-2 https://github.com/zwolinska/goit-markup-hw-02
+https://zwolinska.github.io/goit-markup-hw-02/
