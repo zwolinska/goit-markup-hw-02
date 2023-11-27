@@ -119,6 +119,7 @@ color:var(--link-hover-focus);
     .button:hover, .button:focus 
     {
         background-color:var(--link-hover-focus);
+        cursor: pointer;
     }
 
     .button-portfolio
@@ -130,7 +131,6 @@ color:var(--link-hover-focus);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    cursor: pointer;
 }
 
     .button-portfolio:hover, .button-portfolio:focus
@@ -148,13 +148,32 @@ color:var(--link-hover-focus);
     color:var(--section-heading-color);
 }
 
-    .section-four {background-color:var(--footer-color);}
+    .section-four 
+    {
+        background-color:var(--footer-color);
+    }
 
-    .fotos {background-color:var(--bacground-color);}
+    .fotos 
+    {
+        background-color:var(--bacground-color);
+    }
 
-    .footer {background-color:var(--becgroung-color-section)}
+    .footer 
+    {
+        background-color:var(--becgroung-color-section)
+    }
 
-    .styl-color {color: var(--footer-color);}
+    .styl-color 
+    {
+        color: var(--footer-color);
+    }
+
+    .footer-acapit
+    {
+        line-height: 1.5;
+        color:var(--footer-color);
+        letter-spacing: 0.02em;
+    }
 
 
 
